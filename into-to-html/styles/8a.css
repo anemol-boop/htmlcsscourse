@@ -1,0 +1,29 @@
+.bar {
+    display: block; 
+    margin-bottom:4px; 
+}
+
+.text1 {
+    width: 200px; 
+    display: inline-block; 
+    vertical-align: middle;
+}
+.google {
+    text-align: center;
+}
+.img {
+    width: 200px; 
+    
+}
+.box2 {
+    font-size: 16px;    
+    border-radius: 30px ;
+    border: none; 
+    box-shadow: 2px 2px 5px gray;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 15px; 
+    padding-right: 250px; 
+    margin-left: 20px; 
+    margin-bottom: 30px; 
+}

@@ -1,0 +1,50 @@
+<style>
+    .Stretch-button {
+        font-size: 17px; 
+        background-color: green;
+        color: white; 
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+        border: none; 
+        cursor: pointer;
+        transition: padding-left 1s, padding-right 1s, padding-top 1s, padding-bottom 1s; 
+        margin-right: 20px; 
+    }
+    .Stretch-button:hover {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 17px;
+        padding-bottom: 17px; 
+    }
+    .Shadow-button {
+        font-size: 17px; 
+        background-color: green;
+        color: white; 
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px; 
+        border: none; 
+        transition: box-shadow 0.15s;
+        cursor: pointer;  
+    }
+    .Shadow-button:hover {
+        box-shadow: 2px 3px 5px rgba(0,0,0,1);
+    }
+    .Shadow-button:active {
+        margin-top: 2px;
+        margin-left: 3px;
+        box-shadow: 0px 0px 0px rgba(0,0,0,1);
+    }
+
+</style>
+
+<button class="Stretch-button">
+    Stretch
+</button>
+
+<button class="Shadow-button">
+    Shadow
+</button>
